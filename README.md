@@ -67,7 +67,23 @@ The input point data can be any small subset of NYC taxi dataset.
 #### Hot cell analysis
 The input point data is a monthly NYC taxi trip dataset (2009-2012) like "yellow\_tripdata\_2009-01\_point.csv"
 
-### Output data format
+### Output data
+
+Output: A list of the fifty most significant hot spot cells in time and space as identified using the Getis-Ord  statistic.
+
+$$
+G_i^* = \frac{\sum_{j=1}^{n} w_{i,j} x_j - \bar{X} \sum_{j=1}^{n} w_{i,j}}{S \sqrt{\left[ n \sum_{j=1}^{n} w_{i,j}^2 - \left( \sum_{j=1}^{n} w_{i,j} \right)^2 \right] \frac{1}{n-1}}}
+$$
+
+where $x_j$ is the attribute value for cell $j$, $w_{i,j}$ is the spatial weight between cell  and ,  is equal to the total number of cells, and:
+
+$$
+\bar{X} = \frac{\sum_{j=1}^{n} x_j}{n}
+$$
+
+$$
+S = \sqrt{\frac{\sum_{j=1}^{n} x_j^2}{n} - \left( \bar{X} \right)^2}
+$$
 
 #### Hot zone analysis
 All zones with their count, sorted by "rectangle" string in an ascending order. 
