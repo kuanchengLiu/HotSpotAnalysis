@@ -106,22 +106,6 @@ The coordinates of top 50 hotest cells sorted by their G score in a descending o
 ### Example answers
 An example input and answer are put in "testcase" folder of the coding template
 
-### Hot zone analysis
-
-In the code template,
-
-1. You need to change "**HotzoneAnalysis.scala** and **HotzoneUtils.scala**".
-2. The coding template has loaded the data and wrote the first step, range join query, for you. Please finish the rest of the task.
-3. The output DataFrame should be sorted by you according to "rectangle" string.
-
-### Hot cell analysis
-In the code template,
-
-1. You need to change "**HotcellAnalysis.scala** and **HotcellUtils.scala**".
-2. The coding template has loaded the data and decided the cell coordinate, x, y, z and their min and max. Please finish the rest of the task.
-3. The output DataFrame should be sorted by you according to G-score. The coding template will take the first 50 to output. DO NOT OUTPUT G-score.
-
-
 ## Tips (Optional)
 This section is same with that in the Project SparkSQl Instructions.
 ### How to debug your code in IDE
