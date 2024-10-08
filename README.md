@@ -106,10 +106,6 @@ The coordinates of top 50 hotest cells sorted by their G score in a descending o
 ### Example answers
 An example input and answer are put in "testcase" folder of the coding template
 
-
-## Where you need to change
-DO NOT DELETE any existing code in the coding template unless you see this "YOU NEED TO CHANGE THIS PART"
-
 ### Hot zone analysis
 
 In the code template,
